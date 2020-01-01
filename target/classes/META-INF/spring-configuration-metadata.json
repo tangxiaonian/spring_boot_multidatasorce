@@ -1,0 +1,1414 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.test01",
+      "type": "com.zaxxer.hikari.HikariConfig",
+      "sourceType": "com.tang.mulit.datasource.test1.config.Test1DataSourceConfig",
+      "sourceMethod": "hikariConfig()"
+    },
+    {
+      "name": "spring.datasource.test02",
+      "type": "com.zaxxer.hikari.HikariConfig",
+      "sourceType": "com.tang.mulit.datasource.test2.config.Test2DataSourceConfig",
+      "sourceMethod": "hikariConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test01.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    },
+    {
+      "name": "spring.datasource.test02.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariConfig"
+    }
+  ],
+  "hints": []
+}
