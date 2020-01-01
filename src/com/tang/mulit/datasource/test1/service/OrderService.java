@@ -20,7 +20,7 @@ public class OrderService {
     @Resource
     public OrderMapper orderMapper;
 
-    @Transactional(value = "test01TransactionManager",rollbackFor = {RuntimeException.class})
+    @Transactional
     public void add(Order order, Integer i) {
 
         orderMapper.insert(order);

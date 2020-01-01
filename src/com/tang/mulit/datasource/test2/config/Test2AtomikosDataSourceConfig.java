@@ -1,5 +1,6 @@
 package com.tang.mulit.datasource.test2.config;
 
+import com.mysql.cj.jdbc.MysqlXADataSource;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -7,6 +8,7 @@ import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -15,6 +17,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import tk.mybatis.spring.annotation.MapperScan;
 
 import javax.sql.DataSource;
+import java.sql.SQLException;
 
 /**
  * @Classname DataSourceConfig
@@ -28,7 +31,7 @@ import javax.sql.DataSource;
         value = {"com.tang.mulit.datasource.test2.mapper"},
         sqlSessionFactoryRef = "test02SqlSessionFactory"
 )
-public class Test2DataSourceConfig {
+public class Test2AtomikosDataSourceConfig {
 
     @Bean(name = "test02HikariConfig")
     @ConfigurationProperties(prefix = "spring.datasource.test02")
@@ -38,9 +41,24 @@ public class Test2DataSourceConfig {
 
     @Bean(name = "test02DataSource")
     public DataSource dataSource(
-            @Qualifier(value = "test02HikariConfig") HikariConfig hikariConfig) {
+            @Qualifier(value = "test02HikariConfig") HikariConfig hikariConfig) throws SQLException {
 
-        return new HikariDataSource(hikariConfig);
+        // 针对MySQL的xa
+        MysqlXADataSource mysqlXaDataSource = new MysqlXADataSource();
+
+        mysqlXaDataSource.setUrl(hikariConfig.getJdbcUrl());
+        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
+        mysqlXaDataSource.setPassword(hikariConfig.getPassword());
+        mysqlXaDataSource.setUser(hikariConfig.getUsername());
+
+        // 配置 AtomikosDataSourceBean
+        AtomikosDataSourceBean dataSourceBean = new AtomikosDataSourceBean();
+
+        dataSourceBean.setXaDataSource(mysqlXaDataSource);
+        dataSourceBean.setUniqueResourceName("xads2");
+        dataSourceBean.setBorrowConnectionTimeout(60);
+
+        return dataSourceBean;
     }
 
     @Bean(name = "test02SqlSessionFactory")
@@ -57,13 +75,6 @@ public class Test2DataSourceConfig {
 
         return sessionFactoryBean.getObject();
 
-    }
-
-    @Bean(name = "test02TransactionManager")
-    public PlatformTransactionManager platformTransactionManager(
-            @Qualifier(value = "test02DataSource") DataSource dataSource) {
-
-        return new DataSourceTransactionManager(dataSource);
     }
 
     @Bean(name = "test02SqlSessionFactory")

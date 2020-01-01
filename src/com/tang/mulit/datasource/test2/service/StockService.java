@@ -21,7 +21,7 @@ public class StockService {
     @Resource
     private StockMapper stockMapper;
 
-    @Transactional(value = "test02TransactionManager",rollbackFor = RuntimeException.class)
+    @Transactional
     public void update() {
 
         Stock stock = stockMapper.selectByPrimaryKey(1);
